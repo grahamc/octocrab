@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.31.3](https://github.com/XAMPPRocky/octocrab/compare/v0.31.2...v0.31.3) - 2023-10-31
+
+### Other
+- add events for auto_merge_[disabled|enabled] ([#479](https://github.com/XAMPPRocky/octocrab/pull/479))
+- Add examples/graphql_issues.rs ([#478](https://github.com/XAMPPRocky/octocrab/pull/478))
+- Document the PullRequest number field ([#476](https://github.com/XAMPPRocky/octocrab/pull/476))
+- Update jsonwebtoken requirement from 8 to 9 ([#471](https://github.com/XAMPPRocky/octocrab/pull/471))
+
 ## [0.31.2](https://github.com/XAMPPRocky/octocrab/compare/v0.31.1...v0.31.2) - 2023-10-15
 
 ### Other
