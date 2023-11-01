@@ -64,7 +64,6 @@ pub struct HeadCommit {
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-#[non_exhaustive]
 pub struct Job {
     pub id: JobId,
     pub run_id: RunId,
@@ -100,7 +99,6 @@ pub struct Job {
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
-#[non_exhaustive]
 pub enum Conclusion {
     ActionRequired,
     Cancelled,
@@ -113,7 +111,6 @@ pub enum Conclusion {
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
-#[non_exhaustive]
 pub enum Status {
     Queued,
     InProgress,
@@ -122,7 +119,6 @@ pub enum Status {
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-#[non_exhaustive]
 pub struct Step {
     pub name: String,
     pub status: Status,
